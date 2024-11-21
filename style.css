@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    border-top: 2px solid #003366;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.navbar {
+    background-color: #003366 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    border-radius: 50px;
+}
